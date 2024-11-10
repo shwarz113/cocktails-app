@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {Navigation} from "./modules/navigation";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Navigation } from "./modules/navigation";
 import ContentPage from "./pages/ContentPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import {Template} from "./template";
+import { Template } from "./template";
 
 function App() {
   return (
